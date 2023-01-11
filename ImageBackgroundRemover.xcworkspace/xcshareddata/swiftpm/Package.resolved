@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "semanticimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/john-rocky/SemanticImage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9343f6cee235c5c8a7e35dd3a0b8762eb9b62b42"
+      }
+    }
+  ],
+  "version" : 2
+}
