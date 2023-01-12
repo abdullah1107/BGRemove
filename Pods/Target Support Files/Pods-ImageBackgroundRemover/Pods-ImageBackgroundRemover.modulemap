@@ -1,6 +1,0 @@
-framework module Pods_ImageBackgroundRemover {
-  umbrella header "Pods-ImageBackgroundRemover-umbrella.h"
-
-  export *
-  module * { export * }
-}

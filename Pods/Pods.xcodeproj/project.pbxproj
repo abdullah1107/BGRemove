@@ -32,7 +32,6 @@
 		12849D2018EFDD6A9A69A8A13DFF264F /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BD05874EFD0A1FED75F439553FFFA13C /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13490CEECF9164A8EA225BADDA85C5DB /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E2434ADF79C75894481B68114F2300 /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15055A064FDF7129E5957D231DC633C7 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 995E8925D4475E6FB22B2874145C74B8 /* SDWebImageCompat.m */; };
-		1550E940745E175DFF7990A1205F6438 /* Pods-ImageBackgroundRemover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7078CDA873A118B5E28783543938568 /* Pods-ImageBackgroundRemover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		157435C910963F10BD9FEB6244FCF6AC /* CropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE6B2D28A4BE14C21F81FC10C82ABA3 /* CropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17ED0DD5842C94850A86D97C71A8C5F5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B5B2E3631C815DE3F2C72E9EEA3D5 /* ImageIO.framework */; };
 		17F61406A52F55F10B36FAAC1007C8E8 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */; };
@@ -92,6 +91,7 @@
 		3FC43C1F8CEAF7765FB71BAC10162317 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 117E90724ACDDADB0F1AE13837196315 /* ar.lproj */; };
 		400A684E2FF86974B9119515F7C6F893 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BF37E301A37B8A6E99A3CE3CF80C07C0 /* ar.lproj */; };
 		40B9680E5E56E66E9216209C126B5501 /* DKPhotoGalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54BBB39517E52D29C6D359432DE302B /* DKPhotoGalleryItem.swift */; };
+		4146FF540B44E9AA24FFBCAA65A046F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0296B0E72D1568C2B23C9828F6505D5B /* Foundation.framework */; };
 		41E54588B3751CA93FC9FD7C4EFAEEB0 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0A0F0B7E21F2E629846A68DD8E7785 /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4213C2AEDB32F9855E0DDD10A9826A9A /* DKAssetGroupDetailCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D459DB9F432DD601F1E8A83ACD813B5 /* DKAssetGroupDetailCameraCell.swift */; };
 		42FDFE1785AC678F66DFB33A17183E26 /* DKImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB23BF6D0C9EA06D21F91A88AFFEF2C /* DKImagePickerController.swift */; };
@@ -118,7 +118,6 @@
 		582829C392287695D376ACED8790207D /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B65F20E3EC116FC5FDA64CD19D011C0 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5857ACFB097171185F4F253AD348C304 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 79260E2756D62C3C08C4C510897CA92E /* UIImage+ForceDecode.m */; };
 		58BA7EEDE90AB8D3B618150F4157F93B /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6A48A67370DB698D4829722774F650FB /* Base.lproj */; };
-		5AC653D188A9F5B47C9297541ED4E3F4 /* Pods-ImageBackgroundRemover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CECF01F6E01B6709E997A7591B19D3 /* Pods-ImageBackgroundRemover-dummy.m */; };
 		5B8E384DF64054DEC52AC253514D847F /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0420F80DA610983B177A06BFFB8B34EE /* pl.lproj */; };
 		5CFDA8C832F794F2C029A433BB3996A4 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB849BA8F99929A93F8342C11494114 /* CropViewController.swift */; };
 		5E0BA2A9F0376A0ED9E686B0E5758EE4 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9112ACF67C60F53024439561C389E /* UIImage+Transform.m */; };
@@ -182,6 +181,7 @@
 		96723D5CD403F237EE13B3C03BFCC318 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 18211DD0123BA4205CD70DF3BDCABACA /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97A9D57035FF4732B249B06CFBDF281D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0296B0E72D1568C2B23C9828F6505D5B /* Foundation.framework */; };
 		98A612A6CFD2CB9B46230613C97B44D0 /* TOCropViewConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3094616F6E48FF04E98BA9638BBBD /* TOCropViewConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A1CD0393598BD2CBCD1466594BA98B2 /* Pods-AI Editor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E49D775802CCD06D5E90B56CC600BD /* Pods-AI Editor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B8D68582AFDD10E4DCDB884660D4228 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 20914AB88DFEF11A6B22E5C4EC3D437B /* ms.lproj */; };
 		9B940A12CC4DBD7EB4767B453C693695 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D2CBD93CA5303E3266568F15E319EAE1 /* de.lproj */; };
 		9C0E1EC9FF0602C55C08B90287877ECF /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E544CFAA3D271EE257E793FA79163217 /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -206,7 +206,6 @@
 		A9FB5FB3C2169DF67F903079F4397B79 /* SDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FAF18CB153AF04C77B68DFB56FB082 /* SDDeviceHelper.m */; };
 		AACA864B240E76A2E03CB82FC806404B /* SDWebImageDownloaderDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD24BC292DCCB85185E0E1EBE058F7A /* SDWebImageDownloaderDecryptor.m */; };
 		AB4AE1BD67BE330E35BB08907EB837E3 /* DKImageExtensionInlineCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10851BB8F731C7B0C093FB4D2E3D23B /* DKImageExtensionInlineCamera.swift */; };
-		ABC7CC6DD7F268631494B0037192A5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0296B0E72D1568C2B23C9828F6505D5B /* Foundation.framework */; };
 		AD1FF33DF7782670136BC544E0AEFD2D /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = AA51959E7653A7C264F52E141BB56A0B /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADE0BD90F21CC18C0C12DB3070D800B8 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 76F95167AD8C4CA12DEC52E09096A490 /* Base.lproj */; };
 		ADF4B135A1C3C1B4235FB53A1C203969 /* SDWebImageDownloaderResponseModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E046E6CCE20CA5726856BE4B85F274 /* SDWebImageDownloaderResponseModifier.m */; };
@@ -266,6 +265,7 @@
 		CF56B2ACCF87C24EA457747F72336395 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6350B24C9637419A29E83DFD53ABE10E /* SDWebImageDownloaderOperation.m */; };
 		D03674D95F924ED0ACBAE7065AAA6773 /* DKPhotoBasePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB97E30E8E594548432C0CF8639075F /* DKPhotoBasePreviewVC.swift */; };
 		D202FA132798B638AA21CCB6B4924CE7 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4F64113D2CCF1C792AA42717BED537 /* SDMemoryCache.m */; };
+		D252688B4315036C3849B24DB6B50D9F /* Pods-AI Editor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D00327A3267DF8BA58D50DB43FC2EC /* Pods-AI Editor-dummy.m */; };
 		D2596A3450D23C209A5B43995BE085E0 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E3521828F4BBCD42F927D8B2442BB2 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D27017701B87DC29C7B63943460A5EE7 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E454B6FF81A082BB4CB24E9AEA5E31C3 /* fr.lproj */; };
 		D29F6DFE8BD2F304ABE71E74E27BEB85 /* DKAssetGroupCellItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8397CE3186F007DD211F5CA0A2F6C11 /* DKAssetGroupCellItemProtocol.swift */; };
@@ -324,27 +324,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07848BE1696CD9DE7CBD202B60D0E578 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E6A9737EF2909D1EB8FE2A056F27AF0;
-			remoteInfo = DKCamera;
-		};
-		0EE970EA7A85ED7DF3D87CF5F057AF37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
-			remoteInfo = SwiftyGif;
-		};
-		21E85C6AAC3B4F8EC89E0E6E53D804EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC81A5995F9CEB2971CBA61ACA13FCA3;
-			remoteInfo = CropViewController;
-		};
 		27B96812B6516C4952C2D487F4577DD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -352,19 +331,19 @@
 			remoteGlobalIDString = 76ECBFA16F19926BEDC92324235D3BE7;
 			remoteInfo = "DKPhotoGallery-DKPhotoGallery";
 		};
-		3654D8044C72CBA20458E50D594DF310 /* PBXContainerItemProxy */ = {
+		2EC13D05C270C9C2ADC26AF7B6989978 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7328189F8C34132A51A6532A51BBBC06;
-			remoteInfo = DKPhotoGallery;
+			remoteGlobalIDString = A4BE7D9267EB551461B2837139E4A9D6;
+			remoteInfo = DKImagePickerController;
 		};
-		3AC4DB46C6DD78517BF2DBBB4E1737D2 /* PBXContainerItemProxy */ = {
+		420604D26B7DB9F439E910FC3213D444 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
-			remoteInfo = SDWebImage;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
 		};
 		57B9ABE060556514F1E5CC83C602E0D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -380,12 +359,33 @@
 			remoteGlobalIDString = 9E6A9737EF2909D1EB8FE2A056F27AF0;
 			remoteInfo = DKCamera;
 		};
+		67F01F765841E1A378141B5251B360CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC81A5995F9CEB2971CBA61ACA13FCA3;
+			remoteInfo = CropViewController;
+		};
+		6A4CAC803E4865C8713991B6AF2B11B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6A9737EF2909D1EB8FE2A056F27AF0;
+			remoteInfo = DKCamera;
+		};
 		7A1045B35CFF17650153A1BE588A22D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BB4EEF23ECB2BAF774CE8EFA5AF90C40;
 			remoteInfo = "CropViewController-TOCropViewControllerBundle";
+		};
+		7B168EA1D30FDA5B5F92B15724E22E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7328189F8C34132A51A6532A51BBBC06;
+			remoteInfo = DKPhotoGallery;
 		};
 		7B4212A5A2D58FCF01D3CE21FA2E6A5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -408,19 +408,19 @@
 			remoteGlobalIDString = CC81A5995F9CEB2971CBA61ACA13FCA3;
 			remoteInfo = CropViewController;
 		};
+		D7B334C4E734FC346C70DEAFC466B7EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
 		E455EC3E68CCA717C4E2E89D058EB15C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
 			remoteInfo = SwiftyGif;
-		};
-		F366D9F5D06402B9AB7D5FF9FEA1E2FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4BE7D9267EB551461B2837139E4A9D6;
-			remoteInfo = DKImagePickerController;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -430,15 +430,16 @@
 		0296B0E72D1568C2B23C9828F6505D5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		03ECEBC149C0121668F4D87A1EE33C4D /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
 		0420F80DA610983B177A06BFFB8B34EE /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
+		04D00327A3267DF8BA58D50DB43FC2EC /* Pods-AI Editor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AI Editor-dummy.m"; sourceTree = "<group>"; };
 		04EE6A39A32804EE9A0BFA77D18B9178 /* SDImageHEICCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoder.h; path = SDWebImage/Core/SDImageHEICCoder.h; sourceTree = "<group>"; };
 		04FFEC34A1B8762E8B837E1307E9849D /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
 		072D22E6D59B23876FF227CFD6A188FA /* DKPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
 		07DBEB8C1D789F67B8302B5FE634437C /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
 		0848D567A2C0E0622B3930A219C377AE /* DKImageAssetExporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageAssetExporter.swift; path = Sources/DKImagePickerController/DKImageAssetExporter.swift; sourceTree = "<group>"; };
+		08C83F746D49C6D97AE48597D7D3AC72 /* Pods-AI Editor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AI Editor-frameworks.sh"; sourceTree = "<group>"; };
 		08FBDCE31A98312C60F656D9A91B3325 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
 		0940DBA9497370B733B640DC0E3848FA /* ResourceBundle-DKPhotoGallery-DKPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DKPhotoGallery-DKPhotoGallery-Info.plist"; sourceTree = "<group>"; };
 		098F627018397F263C40532698711941 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		0A3CE07CCABFA77211C23AEE67241272 /* Pods-ImageBackgroundRemover-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageBackgroundRemover-frameworks.sh"; sourceTree = "<group>"; };
 		0A6FDF7412680F8DAC6472D357B236EB /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = "Objective-C/TOCropViewController/Resources/tr.lproj"; sourceTree = "<group>"; };
 		0BBBC20228161E6FD9638EF340873247 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Sources/DKImagePickerController/Resource/Resources/ru.lproj; sourceTree = "<group>"; };
 		0BBCB684F533DCC711B38784BD027BF5 /* DKAssetGroupDetailVideoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailVideoCell.swift; path = Sources/DKImagePickerController/View/Cell/DKAssetGroupDetailVideoCell.swift; sourceTree = "<group>"; };
@@ -477,7 +478,6 @@
 		1EDBDAD02DF15A398C499A41BAD79276 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
 		2086DBD59E51BE645C5484AC3E667C49 /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		20914AB88DFEF11A6B22E5C4EC3D437B /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
-		20CECF01F6E01B6709E997A7591B19D3 /* Pods-ImageBackgroundRemover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageBackgroundRemover-dummy.m"; sourceTree = "<group>"; };
 		230D3C5DD7A50CE1D30EEBD4298B98C1 /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/Core/SDWebImageDefine.h; sourceTree = "<group>"; };
 		23BF4F5362E146E538416C8222826378 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = "Objective-C/TOCropViewController/Resources/sk.lproj"; sourceTree = "<group>"; };
 		2791E7B204D217FC3DBC932251F94FA1 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
@@ -529,7 +529,6 @@
 		4143FA16D4BE49C7C8214394D38D703F /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/Core/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
 		41671846241B7E360863900A9174BA95 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
 		41A02F0E14E6EDA4F759BCD88A0927EB /* DKPhotoGalleryTransitionDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoGalleryTransitionDismiss.swift; path = DKPhotoGallery/Transition/DKPhotoGalleryTransitionDismiss.swift; sourceTree = "<group>"; };
-		41FBD6B860BB93D1D6CF7715AFDA8B75 /* Pods-ImageBackgroundRemover-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageBackgroundRemover-acknowledgements.markdown"; sourceTree = "<group>"; };
 		422421AB55FB074CFB8438B48C697DE1 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		42AC758C83163098B1DBBFBDE2F34F10 /* DKImagePickerControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImagePickerControllerResource.swift; path = Sources/DKImagePickerController/Resource/DKImagePickerControllerResource.swift; sourceTree = "<group>"; };
 		452CF8B742D14C9DF21DF992E7414886 /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
@@ -545,7 +544,6 @@
 		4D74693942F3899DC51D189E96DE0A24 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
 		4DB696453A67B6D61DF484434DCB04AB /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = "Objective-C/TOCropViewController/Resources/es.lproj"; sourceTree = "<group>"; };
 		4DB97E30E8E594548432C0CF8639075F /* DKPhotoBasePreviewVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoBasePreviewVC.swift; path = DKPhotoGallery/Preview/DKPhotoBasePreviewVC.swift; sourceTree = "<group>"; };
-		4DBF00E5D9B699101396C7961FA6851A /* Pods-ImageBackgroundRemover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageBackgroundRemover-Info.plist"; sourceTree = "<group>"; };
 		4E444A1B67E85835163E357152668BB8 /* DKPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKPhotoGallery-Info.plist"; sourceTree = "<group>"; };
 		4EAD7C4EB3E373814C229352C3A40318 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		4EF20390D28B9786F2C4AD7FD1D704B6 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
@@ -555,6 +553,7 @@
 		51EBC7291E52C8A71CB6A023FF538471 /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
 		5227F7B26271EFBC2C7F068269131B81 /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
 		52B771EC16E6E03F010941275A27C851 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		52E49D775802CCD06D5E90B56CC600BD /* Pods-AI Editor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AI Editor-umbrella.h"; sourceTree = "<group>"; };
 		53AA1290F08084C86B93C0897A7F21EF /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
 		53E2434ADF79C75894481B68114F2300 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
 		545AEA52E6FA4A928196EC514711F90C /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
@@ -573,6 +572,7 @@
 		5B521B681BDBA46EBFF3CB10A2955F3E /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
 		5BF427C21878640ADE28B023E8BD7266 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
 		5C2FA705A54632CBE13ABE26B19BBD4C /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		5DA9B0B7857F0DCBB46EDFC4B88C1D13 /* Pods-AI Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AI Editor.debug.xcconfig"; sourceTree = "<group>"; };
 		5E9D512D72CF3FB1F6D074BC13D0B0E2 /* DKPermissionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPermissionView.swift; path = Sources/DKImagePickerController/View/DKPermissionView.swift; sourceTree = "<group>"; };
 		5EC29FA109CEEBEB6A5C885107FA51D5 /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKCamera.modulemap; sourceTree = "<group>"; };
 		5F794F5DF506064CA96B737C3E2E908B /* DKAssetGroupDetailImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailImageCell.swift; path = Sources/DKImagePickerController/View/Cell/DKAssetGroupDetailImageCell.swift; sourceTree = "<group>"; };
@@ -582,12 +582,10 @@
 		6350B24C9637419A29E83DFD53ABE10E /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		645595B3656AE18350153D2070D440B4 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
 		65CFFD78FF32C5F97F568654872EED58 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
-		65D3CF9861C97B447DDEAF7A312A0CE7 /* Pods-ImageBackgroundRemover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageBackgroundRemover.debug.xcconfig"; sourceTree = "<group>"; };
 		66B31EF14513161A30B5E67D88B26156 /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Objective-C/TOCropViewController/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
 		66D22DE895EA2EFF583818C32FEEF9FA /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/Core/SDDiskCache.h; sourceTree = "<group>"; };
 		68C7D17DE4E1EED20B14E4AF91A4D948 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = "Objective-C/TOCropViewController/Resources/en.lproj"; sourceTree = "<group>"; };
 		698B691F6B471B45BBDBEF01ECD25B72 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		698B9F04C49473174238FE61FB70F6A9 /* Pods-ImageBackgroundRemover-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageBackgroundRemover-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A01A1483AD97F2EA1EC5D12BA570083 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6A48A67370DB698D4829722774F650FB /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
 		6B13CC610CAB00E4405B816CD9A32E46 /* DKCameraResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCameraResource.swift; path = DKCamera/DKCameraResource.swift; sourceTree = "<group>"; };
@@ -596,7 +594,6 @@
 		6CDE20D6577B0AA43D1FE78591000F90 /* DKPhotoGalleryScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoGalleryScrollView.swift; path = DKPhotoGallery/DKPhotoGalleryScrollView.swift; sourceTree = "<group>"; };
 		6CEE2290C9FC51C2D670AA09E131F645 /* DKPhotoGalleryTransitionPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoGalleryTransitionPresent.swift; path = DKPhotoGallery/Transition/DKPhotoGalleryTransitionPresent.swift; sourceTree = "<group>"; };
 		6D193AEB61EBE63BFADADC79C8D89EB6 /* DKPhotoPreviewFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoPreviewFactory.swift; path = DKPhotoGallery/DKPhotoPreviewFactory.swift; sourceTree = "<group>"; };
-		6D2FAD93114B501901D867B35128FA50 /* Pods-ImageBackgroundRemover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageBackgroundRemover.modulemap"; sourceTree = "<group>"; };
 		6D76F0F085C8A8A4D597F80E5ABEA021 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
 		6D783E675014904DF2063D4AA9541719 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
 		6EE8565BDC0F9EBF6B81627945652E68 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
@@ -639,11 +636,11 @@
 		88969DBA347E881FD9F1214FDF0D392A /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/Core/SDImageCache.m; sourceTree = "<group>"; };
 		8AB9DCEA117A79937F80F61D7C9899B8 /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
 		8B5FF8AC67369D63DBE544A61951CDB5 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
+		8C04C7EAFFEC38F850A0812D60D979B4 /* Pods-AI Editor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AI Editor"; path = Pods_AI_Editor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D33781A9861EF367D02B3995D406959 /* DKImageExtensionGallery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageExtensionGallery.swift; path = Sources/Extensions/DKImageExtensionGallery.swift; sourceTree = "<group>"; };
 		8D4F4316706AD2E21AC53F0A5174E38E /* DKCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKCamera-Info.plist"; sourceTree = "<group>"; };
 		8D79AAF11480F8BB1B59BCED5683537F /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
 		8DF2EE5E7A8DBD5EF85925059ED9C19F /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/Core/SDImageCacheDefine.m; sourceTree = "<group>"; };
-		91EF682C9F29ED880C038804FFF24E4F /* Pods-ImageBackgroundRemover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageBackgroundRemover.release.xcconfig"; sourceTree = "<group>"; };
 		925B27711E84AB63C47FD0427D5CB073 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/Core/UIImage+GIF.m"; sourceTree = "<group>"; };
 		92CB3447956F9D8337B278F3A2961374 /* DKImageExtensionPhotoCropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKImageExtensionPhotoCropper.swift; path = Sources/Extensions/DKImageExtensionPhotoCropper.swift; sourceTree = "<group>"; };
 		93A086B104398A8153A41AFF4F0F2F0A /* DKAssetGroupDetailBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailBaseCell.swift; path = Sources/DKImagePickerController/View/Cell/DKAssetGroupDetailBaseCell.swift; sourceTree = "<group>"; };
@@ -655,6 +652,7 @@
 		97D9043EC92B4A6923C5015CAFB4DAA0 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
 		9816CE95BF162EF06D928C5FB636847A /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
 		985B13FA1F768EA0A899660E90A65A20 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
+		98F351FA87B252C5638850C8029FAD99 /* Pods-AI Editor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AI Editor-acknowledgements.markdown"; sourceTree = "<group>"; };
 		995E8925D4475E6FB22B2874145C74B8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
 		99748619D5094D9440AFBE134EB1B0C3 /* DKImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKImagePickerController-Info.plist"; sourceTree = "<group>"; };
 		9AE6B2D28A4BE14C21F81FC10C82ABA3 /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
@@ -667,7 +665,6 @@
 		9F4F28B62C0E2B2963135583BC3BC8FD /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
 		A0F8CDF45624CD865EA1664F0FA6BED1 /* DKPhotoImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoImageView.swift; path = DKPhotoGallery/Preview/ImagePreview/DKPhotoImageView.swift; sourceTree = "<group>"; };
 		A2BB9821BAB147C46A003EE67BECF905 /* DKPhotoImageUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoImageUtility.swift; path = DKPhotoGallery/Preview/ImagePreview/DKPhotoImageUtility.swift; sourceTree = "<group>"; };
-		A2C116D25C35BAC031D294C4A1551458 /* Pods-ImageBackgroundRemover */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ImageBackgroundRemover"; path = Pods_ImageBackgroundRemover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E60CD5C33713A902661CC8EA47405F /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
 		A34BBC9042F6F09396D56DCC0346494F /* UIImage+ExtendedCacheData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ExtendedCacheData.m"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.m"; sourceTree = "<group>"; };
 		A35577DC42A5A39F1EB70AE56C2C7970 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
@@ -680,6 +677,7 @@
 		A9B9A319D01FABA8D358301667FFA098 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		AA376632AE2F95800D7F1F82CD2C51F0 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
 		AA51959E7653A7C264F52E141BB56A0B /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		AC0B340BE877965B845A580BB0128C70 /* Pods-AI Editor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AI Editor-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC569E7B196E3A9ACC821A6C2D15B78B /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = tr.lproj; path = Sources/DKImagePickerController/Resource/Resources/tr.lproj; sourceTree = "<group>"; };
 		AC5830D02BB5AFE4EF3BF7AC882B9570 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
 		ACB8F36EF06D3D3FB000A297FAFBB2F1 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
@@ -699,6 +697,7 @@
 		B879668D6FEF504FE0639A86B9625058 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
 		B8B8B15D9C3368A83D7F09B8DB542644 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
 		B8E046E6CCE20CA5726856BE4B85F274 /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
+		BA4DD5D1909C951787EF1A24DF33B3C5 /* Pods-AI Editor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AI Editor.modulemap"; sourceTree = "<group>"; };
 		BC1A22EA4B3C1B49368A9BA389ACEF05 /* UIColor+SDHexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SDHexString.m"; path = "SDWebImage/Private/UIColor+SDHexString.m"; sourceTree = "<group>"; };
 		BC9A86849F9CBAB907A8CD4DA73D8174 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
 		BD05874EFD0A1FED75F439553FFFA13C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
@@ -715,7 +714,7 @@
 		C504F512A15493E55C718128EB246E83 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
 		C641DB746A98334C84ACFD6D3E60E838 /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
 		C6563F26FB3BF4F9A71EE82431299AC5 /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/Core/UIImage+Metadata.m"; sourceTree = "<group>"; };
-		C7078CDA873A118B5E28783543938568 /* Pods-ImageBackgroundRemover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageBackgroundRemover-umbrella.h"; sourceTree = "<group>"; };
+		C6C135F0E8F2B98EDD4CBD5A10C9C98B /* Pods-AI Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AI Editor.release.xcconfig"; sourceTree = "<group>"; };
 		C80DB81538BA9F68A42D620DE2ACCCEB /* DKPhotoProgressIndicatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKPhotoProgressIndicatorProtocol.swift; path = DKPhotoGallery/Preview/DKPhotoProgressIndicatorProtocol.swift; sourceTree = "<group>"; };
 		C86B5B2E3631C815DE3F2C72E9EEA3D5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		CA033A3D1AF6D02A993B8BCEE298B0C4 /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -771,6 +770,7 @@
 		F72B082150769726A2B5073B9C8BAC94 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
 		F87C84E93C47F4C404E5DBBD6AD8FBC5 /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		F9C84085A9D0FAC3D2906F5D7DC0BCFD /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
+		FA0B997AC6EC2EA00A6E9D6D5EB2BF7F /* Pods-AI Editor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AI Editor-Info.plist"; sourceTree = "<group>"; };
 		FAB37E58400324A024C5C2D541C25140 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
 		FC568559C796D50B21181066480AA73C /* DKPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKPhotoGallery.modulemap; sourceTree = "<group>"; };
 		FC80C680B07CE154BEC8C53DD0962653 /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
@@ -784,6 +784,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF2841C3E3B171AF05348924BEC74A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4146FF540B44E9AA24FFBCAA65A046F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,14 +813,6 @@
 				8351128853B812CC2B87B733B5E95B6B /* Foundation.framework in Frameworks */,
 				6543BE30CA38AE76FF7E4D0201854107 /* Photos.framework in Frameworks */,
 				8930548DE303B927E2BC8F03D365E117 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BA67A675C5F3E32CF65D5F4E98DBF41 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC7CC6DD7F268631494B0037192A5F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,23 +905,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyGif";
-			sourceTree = "<group>";
-		};
-		20288356E9E97130695E12B8384F4161 /* Pods-ImageBackgroundRemover */ = {
-			isa = PBXGroup;
-			children = (
-				6D2FAD93114B501901D867B35128FA50 /* Pods-ImageBackgroundRemover.modulemap */,
-				41FBD6B860BB93D1D6CF7715AFDA8B75 /* Pods-ImageBackgroundRemover-acknowledgements.markdown */,
-				698B9F04C49473174238FE61FB70F6A9 /* Pods-ImageBackgroundRemover-acknowledgements.plist */,
-				20CECF01F6E01B6709E997A7591B19D3 /* Pods-ImageBackgroundRemover-dummy.m */,
-				0A3CE07CCABFA77211C23AEE67241272 /* Pods-ImageBackgroundRemover-frameworks.sh */,
-				4DBF00E5D9B699101396C7961FA6851A /* Pods-ImageBackgroundRemover-Info.plist */,
-				C7078CDA873A118B5E28783543938568 /* Pods-ImageBackgroundRemover-umbrella.h */,
-				65D3CF9861C97B447DDEAF7A312A0CE7 /* Pods-ImageBackgroundRemover.debug.xcconfig */,
-				91EF682C9F29ED880C038804FFF24E4F /* Pods-ImageBackgroundRemover.release.xcconfig */,
-			);
-			name = "Pods-ImageBackgroundRemover";
-			path = "Target Support Files/Pods-ImageBackgroundRemover";
 			sourceTree = "<group>";
 		};
 		25AAFF9E2AF0204642F91F426A652716 /* Resource */ = {
@@ -1018,6 +1001,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		49FF886E9E9E57C15FAB9E0CDE04EA0F /* Pods-AI Editor */ = {
+			isa = PBXGroup;
+			children = (
+				BA4DD5D1909C951787EF1A24DF33B3C5 /* Pods-AI Editor.modulemap */,
+				98F351FA87B252C5638850C8029FAD99 /* Pods-AI Editor-acknowledgements.markdown */,
+				AC0B340BE877965B845A580BB0128C70 /* Pods-AI Editor-acknowledgements.plist */,
+				04D00327A3267DF8BA58D50DB43FC2EC /* Pods-AI Editor-dummy.m */,
+				08C83F746D49C6D97AE48597D7D3AC72 /* Pods-AI Editor-frameworks.sh */,
+				FA0B997AC6EC2EA00A6E9D6D5EB2BF7F /* Pods-AI Editor-Info.plist */,
+				52E49D775802CCD06D5E90B56CC600BD /* Pods-AI Editor-umbrella.h */,
+				5DA9B0B7857F0DCBB46EDFC4B88C1D13 /* Pods-AI Editor.debug.xcconfig */,
+				C6C135F0E8F2B98EDD4CBD5A10C9C98B /* Pods-AI Editor.release.xcconfig */,
+			);
+			name = "Pods-AI Editor";
+			path = "Target Support Files/Pods-AI Editor";
+			sourceTree = "<group>";
+		};
 		5E6B29F9B5D0DA33D3E918A4C0E75067 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1087,7 +1087,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7DED8F0D9E9570B3AE12C1E0B4FFC830 /* Products */ = {
+		7A83BB122B3CDCCAE134E185582F55E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */,
@@ -1097,11 +1097,19 @@
 				7247E064ECCE473BC39CE9C6B1E7C0B3 /* DKImagePickerController.bundle */,
 				B1B247DE42D782218EFEA0CB0F6D6454 /* DKPhotoGallery.framework */,
 				B85D4E7E4EAEF1DAD4C541A2D2E6F27D /* DKPhotoGallery.bundle */,
-				A2C116D25C35BAC031D294C4A1551458 /* Pods-ImageBackgroundRemover */,
+				8C04C7EAFFEC38F850A0812D60D979B4 /* Pods-AI Editor */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
 				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		814EBBBE8F433333CDE4C4F6977159A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49FF886E9E9E57C15FAB9E0CDE04EA0F /* Pods-AI Editor */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
@@ -1201,14 +1209,6 @@
 			path = "../Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
-		AE8B0EDC0BF785F02361011F5A84F205 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				20288356E9E97130695E12B8384F4161 /* Pods-ImageBackgroundRemover */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		B074D426C76CD091B327396B377DCAC5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1282,8 +1282,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				465B1E4D149D9D1BC099A383B45FFCB3 /* Pods */,
-				7DED8F0D9E9570B3AE12C1E0B4FFC830 /* Products */,
-				AE8B0EDC0BF785F02361011F5A84F205 /* Targets Support Files */,
+				7A83BB122B3CDCCAE134E185582F55E3 /* Products */,
+				814EBBBE8F433333CDE4C4F6977159A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1510,6 +1510,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		018EFA858750CD94944E98A79558F45F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1CD0393598BD2CBCD1466594BA98B2 /* Pods-AI Editor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		01E454C3D4B3D61B12E173F2EE4F6BEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1543,14 +1551,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4AC9DD6DD766D4289BA9F8CA81C0014 /* DKCamera-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FFADB66E1200D4A0BD1C7730F1AFF20 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1550E940745E175DFF7990A1205F6438 /* Pods-ImageBackgroundRemover-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1785,30 +1785,6 @@
 			productReference = E95F4135A781F1B0F90A544CD0398420 /* DKImagePickerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B1003CFD501C0DA1B2C24868BA2B8B80 /* Pods-ImageBackgroundRemover */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90EC83F36644C77FFEB32FEA0E3F5367 /* Build configuration list for PBXNativeTarget "Pods-ImageBackgroundRemover" */;
-			buildPhases = (
-				6FFADB66E1200D4A0BD1C7730F1AFF20 /* Headers */,
-				FDCE8221460DAED8890B9C4EF7016F93 /* Sources */,
-				7BA67A675C5F3E32CF65D5F4E98DBF41 /* Frameworks */,
-				9AC79264CE4FAF06FFE8B7A2322AE8AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				088FA2EFEB5A6F939D317267C7C26D7F /* PBXTargetDependency */,
-				DC60440BF8EFF45353210E5E14E1683E /* PBXTargetDependency */,
-				7A4C1305703C4609944FDC3792813C16 /* PBXTargetDependency */,
-				1264D97AD7B54B6CEA8FB141675AADD0 /* PBXTargetDependency */,
-				BD3B5BCA51D1AA5519D6922D26BD38FF /* PBXTargetDependency */,
-				71F8E415EF746BC97A37C7FB8D219C74 /* PBXTargetDependency */,
-			);
-			name = "Pods-ImageBackgroundRemover";
-			productName = Pods_ImageBackgroundRemover;
-			productReference = A2C116D25C35BAC031D294C4A1551458 /* Pods-ImageBackgroundRemover */;
-			productType = "com.apple.product-type.framework";
-		};
 		BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7962351F208653833AE53A4A1CD0280D /* Build configuration list for PBXNativeTarget "CropViewController-TOCropViewControllerBundle" */;
@@ -1843,6 +1819,30 @@
 			name = CropViewController;
 			productName = CropViewController;
 			productReference = 19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDDF879DE0AA4E384EA3F22D66D13D64 /* Pods-AI Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AB8C6B3224F17A19082404020A1F75 /* Build configuration list for PBXNativeTarget "Pods-AI Editor" */;
+			buildPhases = (
+				018EFA858750CD94944E98A79558F45F /* Headers */,
+				FD69574EE0D15B6C0A97B49F9D3D6A70 /* Sources */,
+				2AF2841C3E3B171AF05348924BEC74A7 /* Frameworks */,
+				FF7A09214D9D5247BD67B862A411D6F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14667692F7792D567B8F583F31AA6CA4 /* PBXTargetDependency */,
+				FF415E4212BA39AA52B65440E60B29AF /* PBXTargetDependency */,
+				5B2C798A0F6577D958B7E1613F48192F /* PBXTargetDependency */,
+				DF27593A490AA4FE356B0E469695237C /* PBXTargetDependency */,
+				9B7F7AD1E260406BDEFF9430FFBE55E9 /* PBXTargetDependency */,
+				11809BC0124226D171754AC24D7A79B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AI Editor";
+			productName = Pods_AI_Editor;
+			productReference = 8C04C7EAFFEC38F850A0812D60D979B4 /* Pods-AI Editor */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1894,7 +1894,7 @@
 				"zh-Hant",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7DED8F0D9E9570B3AE12C1E0B4FFC830 /* Products */;
+			productRefGroup = 7A83BB122B3CDCCAE134E185582F55E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1905,7 +1905,7 @@
 				6244DB400F69AD751FA848C697E64C56 /* DKImagePickerController-DKImagePickerController */,
 				7328189F8C34132A51A6532A51BBBC06 /* DKPhotoGallery */,
 				76ECBFA16F19926BEDC92324235D3BE7 /* DKPhotoGallery-DKPhotoGallery */,
-				B1003CFD501C0DA1B2C24868BA2B8B80 /* Pods-ImageBackgroundRemover */,
+				EDDF879DE0AA4E384EA3F22D66D13D64 /* Pods-AI Editor */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
 				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
 			);
@@ -1973,13 +1973,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AC79264CE4FAF06FFE8B7A2322AE8AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B50CB2D6D316A9AB1EE9140FF5720FAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2038,6 +2031,13 @@
 				3AFA8C663BAA00F01EACC5BA7F88037C /* en.lproj in Resources */,
 				B5BF03608681A314365564C6414F7302 /* Images.xcassets in Resources */,
 				A951AA5C7D772B030FE3F759275F660B /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7A09214D9D5247BD67B862A411D6F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2253,11 +2253,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDCE8221460DAED8890B9C4EF7016F93 /* Sources */ = {
+		FD69574EE0D15B6C0A97B49F9D3D6A70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AC653D188A9F5B47C9297541ED4E3F4 /* Pods-ImageBackgroundRemover-dummy.m in Sources */,
+				D252688B4315036C3849B24DB6B50D9F /* Pods-AI Editor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2270,23 +2270,23 @@
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
 			targetProxy = 57B9ABE060556514F1E5CC83C602E0D9 /* PBXContainerItemProxy */;
 		};
-		088FA2EFEB5A6F939D317267C7C26D7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CropViewController;
-			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
-			targetProxy = 21E85C6AAC3B4F8EC89E0E6E53D804EC /* PBXContainerItemProxy */;
-		};
 		0B19EDF94F9223B2CB1EDEDDE66E7581 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CropViewController-TOCropViewControllerBundle";
 			target = BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */;
 			targetProxy = 7A1045B35CFF17650153A1BE588A22D7 /* PBXContainerItemProxy */;
 		};
-		1264D97AD7B54B6CEA8FB141675AADD0 /* PBXTargetDependency */ = {
+		11809BC0124226D171754AC24D7A79B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DKPhotoGallery;
-			target = 7328189F8C34132A51A6532A51BBBC06 /* DKPhotoGallery */;
-			targetProxy = 3654D8044C72CBA20458E50D594DF310 /* PBXContainerItemProxy */;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 420604D26B7DB9F439E910FC3213D444 /* PBXContainerItemProxy */;
+		};
+		14667692F7792D567B8F583F31AA6CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CropViewController;
+			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
+			targetProxy = 67F01F765841E1A378141B5251B360CA /* PBXContainerItemProxy */;
 		};
 		4C202768D2AA7823706596AF091BED64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2294,23 +2294,17 @@
 			target = 76ECBFA16F19926BEDC92324235D3BE7 /* DKPhotoGallery-DKPhotoGallery */;
 			targetProxy = 27B96812B6516C4952C2D487F4577DD9 /* PBXContainerItemProxy */;
 		};
+		5B2C798A0F6577D958B7E1613F48192F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKImagePickerController;
+			target = A4BE7D9267EB551461B2837139E4A9D6 /* DKImagePickerController */;
+			targetProxy = 2EC13D05C270C9C2ADC26AF7B6989978 /* PBXContainerItemProxy */;
+		};
 		70C6D00971E835CC76B4296195D0AF03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CropViewController;
 			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
 			targetProxy = CEACF59752006D9E09D4BA564E0C7DF7 /* PBXContainerItemProxy */;
-		};
-		71F8E415EF746BC97A37C7FB8D219C74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyGif;
-			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
-			targetProxy = 0EE970EA7A85ED7DF3D87CF5F057AF37 /* PBXContainerItemProxy */;
-		};
-		7A4C1305703C4609944FDC3792813C16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DKImagePickerController;
-			target = A4BE7D9267EB551461B2837139E4A9D6 /* DKImagePickerController */;
-			targetProxy = F366D9F5D06402B9AB7D5FF9FEA1E2FB /* PBXContainerItemProxy */;
 		};
 		7FACF431B6DC2FBE4076528FDFF8346F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2330,11 +2324,11 @@
 			target = 9E6A9737EF2909D1EB8FE2A056F27AF0 /* DKCamera */;
 			targetProxy = 62CE6D0FE8596E308D6855F7F9BD2E45 /* PBXContainerItemProxy */;
 		};
-		BD3B5BCA51D1AA5519D6922D26BD38FF /* PBXTargetDependency */ = {
+		9B7F7AD1E260406BDEFF9430FFBE55E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 3AC4DB46C6DD78517BF2DBBB4E1737D2 /* PBXContainerItemProxy */;
+			targetProxy = D7B334C4E734FC346C70DEAFC466B7EE /* PBXContainerItemProxy */;
 		};
 		C5257FAD0D9D015C13F917EFE1B6A117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2342,11 +2336,17 @@
 			target = 6244DB400F69AD751FA848C697E64C56 /* DKImagePickerController-DKImagePickerController */;
 			targetProxy = 7D8B497097C0EF0E79A251F700EBFF3B /* PBXContainerItemProxy */;
 		};
-		DC60440BF8EFF45353210E5E14E1683E /* PBXTargetDependency */ = {
+		DF27593A490AA4FE356B0E469695237C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKPhotoGallery;
+			target = 7328189F8C34132A51A6532A51BBBC06 /* DKPhotoGallery */;
+			targetProxy = 7B168EA1D30FDA5B5F92B15724E22E1B /* PBXContainerItemProxy */;
+		};
+		FF415E4212BA39AA52B65440E60B29AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DKCamera;
 			target = 9E6A9737EF2909D1EB8FE2A056F27AF0 /* DKCamera */;
-			targetProxy = 07848BE1696CD9DE7CBD202B60D0E578 /* PBXContainerItemProxy */;
+			targetProxy = 6A4CAC803E4865C8713991B6AF2B11B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2403,6 +2403,43 @@
 			};
 			name = Debug;
 		};
+		187EEB52A379FD5DD7601BD0DFAC8FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA9B0B7857F0DCBB46EDFC4B88C1D13 /* Pods-AI Editor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AI Editor/Pods-AI Editor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AI Editor/Pods-AI Editor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		268B25AF3E303AD915388E53AF33AFA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3926F150E503DB3C46F6C9F2AAA0FB2B /* CropViewController.release.xcconfig */;
@@ -2418,7 +2455,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2488,7 +2525,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DKImagePickerController/DKImagePickerController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DKImagePickerController/DKImagePickerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2522,7 +2559,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DKCamera/DKCamera-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2541,7 +2578,114 @@
 			};
 			name = Debug;
 		};
-		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+		4C6C2D919B603323D3CC611F2AD3EB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3926F150E503DB3C46F6C9F2AAA0FB2B /* CropViewController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
+				DEVELOPMENT_TEAM = R975Y8X2C9;
+				IBSC_MODULE = CropViewController;
+				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4D907163591DA104DD6F94F3E7920F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C135F0E8F2B98EDD4CBD5A10C9C98B /* Pods-AI Editor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AI Editor/Pods-AI Editor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AI Editor/Pods-AI Editor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A1604332434759AE5DEA7F76251A2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E265E19882AB8AF15ADD086B2898F2D /* DKCamera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/DKCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				PRODUCT_MODULE_NAME = DKCamera;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65C9D0C24FE73E502DC3F0119D6B264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C0DCF13F7CBFB164E62A8C192FE2E2 /* DKImagePickerController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKImagePickerController";
+				DEVELOPMENT_TEAM = R975Y8X2C9;
+				IBSC_MODULE = DKImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/DKImagePickerController/ResourceBundle-DKImagePickerController-DKImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = DKImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2595,7 +2739,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2608,151 +2752,7 @@
 			};
 			name = Debug;
 		};
-		4C6C2D919B603323D3CC611F2AD3EB12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3926F150E503DB3C46F6C9F2AAA0FB2B /* CropViewController.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CropViewController";
-				DEVELOPMENT_TEAM = R975Y8X2C9;
-				IBSC_MODULE = CropViewController;
-				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = TOCropViewControllerBundle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5A1604332434759AE5DEA7F76251A2C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E265E19882AB8AF15ADD086B2898F2D /* DKCamera.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKCamera/DKCamera-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
-				PRODUCT_MODULE_NAME = DKCamera;
-				PRODUCT_NAME = DKCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		65C9D0C24FE73E502DC3F0119D6B264F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29C0DCF13F7CBFB164E62A8C192FE2E2 /* DKImagePickerController.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKImagePickerController";
-				DEVELOPMENT_TEAM = R975Y8X2C9;
-				IBSC_MODULE = DKImagePickerController;
-				INFOPLIST_FILE = "Target Support Files/DKImagePickerController/ResourceBundle-DKImagePickerController-DKImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = DKImagePickerController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7E1209E16B9AB946C03754A99646EE2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91EF682C9F29ED880C038804FFF24E4F /* Pods-ImageBackgroundRemover.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageBackgroundRemover/Pods-ImageBackgroundRemover-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageBackgroundRemover/Pods-ImageBackgroundRemover.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		84FD72661C17E5A66B2D4E5F9CE6AA43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65D3CF9861C97B447DDEAF7A312A0CE7 /* Pods-ImageBackgroundRemover.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageBackgroundRemover/Pods-ImageBackgroundRemover-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageBackgroundRemover/Pods-ImageBackgroundRemover.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2803,7 +2803,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2830,7 +2830,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DKImagePickerController/DKImagePickerController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DKImagePickerController/DKImagePickerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2899,7 +2899,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CropViewController/CropViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CropViewController/CropViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3029,7 +3029,7 @@
 				DEVELOPMENT_TEAM = R975Y8X2C9;
 				IBSC_MODULE = CropViewController;
 				INFOPLIST_FILE = "Target Support Files/CropViewController/ResourceBundle-TOCropViewControllerBundle-CropViewController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = TOCropViewControllerBundle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3114,8 +3114,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
-				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3147,11 +3147,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90EC83F36644C77FFEB32FEA0E3F5367 /* Build configuration list for PBXNativeTarget "Pods-ImageBackgroundRemover" */ = {
+		D1AB8C6B3224F17A19082404020A1F75 /* Build configuration list for PBXNativeTarget "Pods-AI Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84FD72661C17E5A66B2D4E5F9CE6AA43 /* Debug */,
-				7E1209E16B9AB946C03754A99646EE2B /* Release */,
+				187EEB52A379FD5DD7601BD0DFAC8FEC /* Debug */,
+				4D907163591DA104DD6F94F3E7920F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

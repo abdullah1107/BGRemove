@@ -9,6 +9,7 @@
 import UIKit
 import MobileCoreServices
 import DKImagePickerController
+import UniformTypeIdentifiers
 
 open class CustomCameraExtension: DKImageBaseExtension, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -29,7 +30,7 @@ open class CustomCameraExtension: DKImageBaseExtension, UIImagePickerControllerD
         camera.delegate = self
         camera.videoQuality = .typeHigh
         camera.sourceType = .camera
-        camera.mediaTypes = [kUTTypeImage as String, kUTTypeMovie as String]
+        camera.mediaTypes = [UTType.image.identifier as String, UTType.movie.identifier as String]
         
         self.context.imagePickerController.present(camera)
     }
@@ -43,12 +44,12 @@ open class CustomCameraExtension: DKImageBaseExtension, UIImagePickerControllerD
     open func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let mediaType = info[.mediaType] as! String
         
-        if mediaType == kUTTypeImage as String {
+        if mediaType == UTType.image.identifier as String {
             let metadata = info[.mediaMetadata] as! [AnyHashable : Any]
             
             let image = info[.originalImage] as! UIImage
             self.didFinishCapturingImage?(image, metadata)
-        } else if mediaType == kUTTypeMovie as String {
+        } else if mediaType == UTType.movie.identifier as String {
             let videoURL = info[.mediaURL] as! URL
             self.didFinishCapturingVideo?(videoURL)
         }
